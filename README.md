@@ -69,7 +69,7 @@ This fork of Vulkan sample collection <https://github.com/kzubatov/shaders_bench
 Author: <https://github.com/kzubatov>\
 GPU: RTX 2070\
 Resolution: 1920x1080\
-Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above. Time for compute shader includes only filter pass(es), without resolve!.
+Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above. Time for compute shader includes only filter pass(es), without resolve!
 | Gaussian filter, time in ms | Default | Proposed | Linear | Compute |
 |-----------------------------|:-------:|:--------:|:------:|:-------:|
 | 3x3 | 0,402 | 0,305 |	0,529 |	0,865 |
@@ -105,7 +105,7 @@ Comments: Performance was measured using Vulkan timestap queries. Shaders from r
 Author: <https://github.com/kzubatov>\
 GPU: Adreno 650\
 Resolution: 2400x1080\
-Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above. Time for compute shader includes only filter pass(es), without resolve!.
+Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above. Time for compute shader includes only filter pass(es), without resolve!
 | Gaussian filter, time in ms | Default | Proposed | Linear | Compute |
 |-----------------------------|:-------:|:--------:|:------:|:-------:|
 | 3x3 | 0,983 |	1,543 | 0,616 | 5,343 |
