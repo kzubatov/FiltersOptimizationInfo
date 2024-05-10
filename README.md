@@ -29,7 +29,7 @@ p += dFdyFine(p) * t.y;
 //   vec3(1, 0, 0), vec3(0, 0, 0) ]
 ```
 # How you can use it?
-The idea is similar to shared memory in compute shader --- single reading of unique texels and shared access to them. But here you need to exchange partial sums for filters rather than texels. Otherwise it will decrease performance --- *r(3r+2)* fine derivatives are very expensive!
+The idea is similar to shared memory in compute shader - single reading of unique texels and shared access to them. But here you need to exchange partial sums for filters rather than texels. Otherwise it will decrease performance - *r(3r+2)* fine derivatives are very expensive!
 
 # What filters are implemented?
  - Gaussian filter: <https://github.com/kzubatov/gaussian_filter>
@@ -66,9 +66,9 @@ The paper is under review. Link will be up as soon as possible. For now, try exp
 This fork of Vulkan sample collection <https://github.com/kzubatov/shaders_benchmark> was used to launch shaders on RTX 2070 and Adreno 650. Performance was measured using Vulkan timestamp queries. You can use it too or write your own engine and rewrite shaders. Please, use the comments section to describe your changes to the shaders (or C++ code) if you will be changing them. It would be great to desribe how you measure performance (nsight, radeon profiler, timestapms, renderdoc etc).
 
 ---
-Author: <https://github.com/kzubatov>
-GPU: RTX 2070
-Resolution: 1920x1080
+Author: <https://github.com/kzubatov>\
+GPU: RTX 2070\
+Resolution: 1920x1080\
 Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above.
 | Gaussian filter, time in ms | Default | Proposed | Linear | Compute |
 |-----------------------------|:-------:|:--------:|:------:|:-------:|
@@ -102,9 +102,9 @@ Comments: Performance was measured using Vulkan timestap queries. Shaders from r
 
 ---
 
-Author: <https://github.com/kzubatov>
-GPU: Adreno 650
-Resolution: 2400x1080
+Author: <https://github.com/kzubatov>\
+GPU: Adreno 650\
+Resolution: 2400x1080\
 Comments: Performance was measured using Vulkan timestap queries. Shaders from repos above.
 | Gaussian filter, time in ms | Default | Proposed | Linear | Compute |
 |-----------------------------|:-------:|:--------:|:------:|:-------:|
